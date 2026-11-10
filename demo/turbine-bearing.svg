@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">水轮机水导轴承演示图</title>
+  <desc id="desc">用于作品演示的合成设备示意图，包含疑似裂纹和渗油标记，不代表真实检测结果。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#081b33"/><stop offset="1" stop-color="#163a5f"/></linearGradient>
+    <radialGradient id="metal"><stop offset="0" stop-color="#d7e3ec"/><stop offset="0.6" stop-color="#8397a8"/><stop offset="1" stop-color="#3d5366"/></radialGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="12" stdDeviation="18" flood-opacity="0.35"/></filter>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <g opacity="0.12" stroke="#91c5ee" stroke-width="1">
+    <path d="M0 100h1200M0 200h1200M0 300h1200M0 400h1200M0 500h1200M0 600h1200M0 700h1200"/>
+    <path d="M100 0v800M200 0v800M300 0v800M400 0v800M500 0v800M600 0v800M700 0v800M800 0v800M900 0v800M1000 0v800M1100 0v800"/>
+  </g>
+  <text x="70" y="88" fill="#e5f3ff" font-size="38" font-family="sans-serif" font-weight="700">4号机组 · 水导轴承巡检</text>
+  <text x="72" y="128" fill="#8eb9da" font-size="20" font-family="sans-serif">PORTFOLIO DEMO · SYNTHETIC EVIDENCE</text>
+  <g transform="translate(520 415)" filter="url(#shadow)">
+    <circle r="260" fill="#1b3145" stroke="#5b7890" stroke-width="24"/><circle r="210" fill="url(#metal)" stroke="#d4e1e9" stroke-width="12"/>
+    <circle r="105" fill="#172d40" stroke="#69869c" stroke-width="18"/><circle r="58" fill="#081827" stroke="#9ab0c0" stroke-width="8"/>
+    <g fill="#c4d3dd" stroke="#516b7f" stroke-width="8"><circle cx="0" cy="-235" r="20"/><circle cx="203" cy="-118" r="20"/><circle cx="203" cy="118" r="20"/><circle cx="0" cy="235" r="20"/><circle cx="-203" cy="118" r="20"/><circle cx="-203" cy="-118" r="20"/></g>
+    <path d="M145-152l-34 42 31 28-48 39 24 35-55 47" fill="none" stroke="#ff5d62" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M-238 56c68 5 96 35 129 93 25 44 75 56 119 58" fill="none" stroke="#e39b3b" stroke-width="20" stroke-linecap="round" opacity="0.78"/>
+  </g>
+  <g font-family="sans-serif">
+    <path d="M700 260l156-86" stroke="#ff777b" stroke-width="4"/><circle cx="700" cy="260" r="9" fill="#ff777b"/><rect x="850" y="118" width="280" height="116" rx="18" fill="#361f2a" stroke="#ff777b" stroke-width="2"/>
+    <text x="878" y="162" fill="#ff9da0" font-size="22" font-weight="700">疑似线性裂纹</text><text x="878" y="198" fill="#f7dadd" font-size="18">约 32 mm · 待 PT/MT 复核</text>
+    <path d="M339 475L160 565" stroke="#f0ae54" stroke-width="4"/><circle cx="339" cy="475" r="9" fill="#f0ae54"/><rect x="58" y="548" width="270" height="116" rx="18" fill="#342a1c" stroke="#f0ae54" stroke-width="2"/>
+    <text x="86" y="592" fill="#ffd28d" font-size="22" font-weight="700">结合面渗油</text><text x="86" y="628" fill="#f8e7c7" font-size="18">连续油迹 · 检查密封与紧固</text>
+  </g>
+  <text x="860" y="735" fill="#8eb9da" font-size="17" font-family="sans-serif">合成演示素材 · 非真实工业检测证据</text>
+</svg>
